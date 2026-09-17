@@ -18,18 +18,18 @@ Diabetic foot ulcers are typically caught only after visible skin damage has alr
 
 Phase-1 circuit simulated in Proteus ISIS — 3x FSR-proxy potentiometers for pressure, 2x LM35 for temperature, 1x DHT11 for humidity, buzzer for local alerting, and a virtual terminal streaming live CSV sensor data over UART.
 
-![Proteus simulation schematic](images/proteus_simulation.png)
+![Proteus simulation schematic](IMAGES/proteus_simulation.png)
 
 ## Mobile App
 
 The PodiaGuard app has two modes, chosen at launch:
 
-![App home screen — mode selection](images/app_home_screen.png)
+![App home screen — mode selection](IMAGES/app_home_screen.png)
 
 - **Patient View** — a simple daily safety score, a color-coded foot map (green / amber / red per zone), and plain-language guidance when something needs attention.
 - **Doctor Mode** — live telemetry sparklines, raw sensor readings, and configurable risk thresholds for clinical review.
 
-![Patient View — daily risk score and foot map](images/app_patient_view.png)
+![Patient View — daily risk score and foot map](IMAGES/app_patient_view.png)
 
 In the screenshot above, the app has flagged a **2.8°C temperature spike in the right heel** — a bilateral asymmetry that, left unaddressed, is a known early predictor of tissue inflammation before a visible sore forms.
 
